@@ -19,6 +19,7 @@ body {
   display: block;
   text-align: center;
   margin: 11px;
+  margin-bottom: 75px;
 }
 
 .nav {
@@ -30,4 +31,29 @@ body {
   color: white;
   margin-left: 12px;
   margin-right: 12px;
+}
+
+.ticker {
+  display: block;
+  font-size: 30px;
+  max-width: 90%;
+  background-color: #77fed1;
+  font-family: sans-serif;
+  margin: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.num {
+  border-bottom: 5px solid #ffe100;
+}
+
+#gallery_container {
+  max-width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
