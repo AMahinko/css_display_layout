@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  height: 1800px;
 }
 
 
@@ -37,7 +38,6 @@ body {
   display: block;
   font-size: 30px;
   font-family: sans-serif;
-  margin: auto;
   padding-top: 25px;
   padding-bottom: 25px;
   /*padding-right: 20px;*/
@@ -49,9 +49,10 @@ body {
 
 .ticker_container {
   background-color: #77fed1;
-  max-width: 1265px;
-  margin-left: 66px;
-  padding-right: 5px;
+  width: 91%;
+  /*margin: auto;*/
+  /*padding-right: 5px;*/
+  margin-bottom: 25px;
 }
 
 .num {
@@ -59,17 +60,43 @@ body {
 }
 
 #gallery_container {
-  width: 1280px;
+  max-width: 1280px;
   display: block;
   margin: auto;
+  display: block;
+  clear: both;
 }
 
 .gal_module {
-  max-width: 420px;
+  width: 30%;
   float: left;
   box-sizing: padding-box;
-  margin-left: 2px;
-  margin-top: 25px;
-  margin-right: 2px;
-  margin-bottom: 50px;
+  margin-left: 3px;
+  margin-top: 23px;
+  /*margin-right: 2px;*/
+  /*margin-bottom: 25px;*/
+}
+
+.gal_module img {
+  max-width: 100%;
+}
+
+ .gal_module p {
+text-align: center;
+background-color: #ffd400;
+padding-bottom: 5px;
+margin: 0;
+line-height: 2;
+/*display: none;*/s
+ }
+
+.footer {
+  width: 100%;
+  color: white;
+  background-color: black;
+  text-align: center;
+  float: left;
+  margin-top: 20px;
+  font-family: sans-serif;
+  display: block;
 }
